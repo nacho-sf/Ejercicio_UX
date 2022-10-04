@@ -1,0 +1,65 @@
+.loginContainer {
+    background-image: url('../../assets/BG_login.png');
+    width: 360px;
+    height: 674px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.loginForm {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px
+}
+
+.label {
+    color: #fff;
+    font-size: 20px;
+}
+
+#username {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    margin-bottom:5px
+}
+
+#password {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -10px;
+    font-family: 'Quicksand';
+    font-style: normal;
+}
+
+.input {
+    margin: 10px auto 30px auto;
+    width: 309px;
+    height: 48px;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 10px 6px -6px rgba(255, 255, 255, 1);
+    -moz-box-shadow: -1px 10px 6px -6px rgba(255, 255, 255, 1);
+    box-shadow: -1px 10px 6px -6px rgba(255, 255, 255, 1);
+}
+
+#login {
+    font-size: 16px;
+    margin-top: 22px;
+    background-color: black;
+    color: #fff;
+    width: 152px;
+    height: 70px;
+    left: 109px;
+
+}
+
+.labelContainer {
+    margin-left: -230px;
+}

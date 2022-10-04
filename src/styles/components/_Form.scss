@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@300&display=swap');
+
+.login-comp{
+    background-image: url('../../../public/BG_formulario.png');
+    width: 360px;
+    height: 674px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &>Form{
+        height: 674px;
+        width: 360px;
+        display:flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+    }
+
+}
+
+.how-big{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-how-big{
+        width: 140px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+}
+
+.input-how-big{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+
+    &>input{
+        width: 32px;
+        height: 32px;
+        background: #000000;
+        background-image: url(../../../public/rectangle.png);
+    }
+}
+
+
+.beverage{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-beverage{
+        width: 140px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+}
+
+.input-beverage{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    &>input{
+        width: 32px;
+        height: 32px;
+        background: #000000;
+    }
+}
+
+
+.dj{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-dj{
+        width: 100px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+}
+
+.input-dj{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items:center;
+    &>input{
+        width: 32px;
+        height: 32px;
+        background: #000000;
+    }
+}
+
+.button{
+    
+    &>button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+        position: absolute;
+        width: 152px;
+        height: 70px;
+        left: 100px;
+        top: 580px;
+        background: #030303;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;
+
+        text-align: right;
+        color: #FCFCFC;
+    }
+
+}
